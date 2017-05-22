@@ -1,0 +1,57 @@
+.search_detail .div1{
+    height: 40px;
+    border-bottom: 1px solid #a6a6a6;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+
+    justify-content: space-around;
+    position: relative;
+}
+.search_detail a{
+    font-size: 14px;
+    color:#000 ;
+    margin-right: 10px;
+}
+.search_detail .ipt1{
+    background: #eff9f5 url(../images/iconfont-sousuo.png) no-repeat left 5px top 5px;
+    background-size: 7%;
+    height: 30px;
+    flex: 1;
+    border-radius: 15px;
+    padding-left:30px;
+    margin-right: 10px;
+}
+
+.search_detail .div1 ul {
+    position: absolute;
+    top:40px;
+    width: 100%;
+    background: #fff;
+}
+.search_detail .div1 ul li{
+    padding: 5px 20px;
+    border-bottom: 1px dashed #dfe0e1;
+}
+.search_detail .div2{
+    margin-top: 5px;
+    width: 100%;
+    padding-left: 10px;
+    overflow: hidden;
+}
+.search_detail .div2 p {
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 5px;
+}
+.search_detail .div2 a{
+    display: block;
+    float: left;
+    padding: 3px 10px;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #79c3c0;
+    border-radius: 3px;
+    margin: 5px;
+}

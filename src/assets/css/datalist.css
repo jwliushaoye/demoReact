@@ -1,0 +1,16 @@
+.search{
+    position: relative;
+    margin-bottom: 5px;
+
+}
+.search .search_ul{
+    padding: 5px 5px 5px 10px;
+    box-sizing: border-box;
+    position: absolute;
+    z-index: 1000;
+    top: 37px;
+    left: 0;
+    background: #fff;
+    width: 100%;
+
+}
